@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gab Flores — UI/UX Designer & Front-End Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__logo">
+      <a href="index.html"><img src="image/download.png" alt="Gab Flores logo" class="nav__logo-img" /></a>
+      <a href="index.html"><span class="nav__logo-text">Gab Flores</span></a>
+    </div>
+    <ul class="nav__links">
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="contact.html" class="btn btn--dark">Reach Out</a>
+    <button class="nav__burger" id="navBurger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+    <a href="contact.html" class="mobile-menu__reach">Reach Out</a>
+
+    <img src="image/download.png" alt="Gab Flores logo" class="mobile-menu__logo" />
+
+    <div class="mobile-menu__socials">
+      <a href="mailto:nuque211811@gmail.com" aria-label="Email">
+        <img src="image/email.png" alt="Email" />
+      </a>
+      <a href="https://www.linkedin.com/in/eduardo-gabriel-flores-74ba073aa/" target="_blank" aria-label="LinkedIn">
+        <img src="image/link.png" alt="LinkedIn" />
+      </a>
+      <a href="https://github.com/code-gab18" target="_blank" aria-label="Github">
+        <img src="image/6.png" alt="Github" />
+      </a>
+    </div>
+  </div>
+
+<!-- HERO -->
+  <section class="hero">
+    <div class="hero__photo-wrap">
+      <img src="image/446a845c-8f8d-4f68-b297-38a1cec9498e.png" alt="Eduardo Gabriel Nuque Flores" class="hero__photo" />
+    </div>
+    <div class="hero__bottom">
+      <div class="hero__tagline">
+        <h1 class="hero__headline">solving problems through strategic design and compelling visuals</h1>
+      </div>
+      <div class="hero__bio">
+        <p>A UI/UX Designer who understands code and a Front-End Developer who values design. He crafts user-centered experiences that are visually compelling, functional, and built to perform.</p>
+        <a href="contact.html" class="btn btn--dark hero__cta">Email Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED PROJECTS -->
+  <section class="featured" id="projects">
+    <div class="featured__header">
+      <h2 class="featured__title">Featured <span class="featured__title--italic">Projects</span></h2>
+      <a href="projects.html" class="featured__all">All Works <span class="arrow">→</span></a>
+    </div>
+
+    <!-- Full-bleed animated liquid metal banner -->
+    <div class="featured__banner">
+  <video
+      class="featured__banner-video"
+      autoplay
+      muted
+      loop
+      playsinline
+      disablepictureinpicture
+      controlslist="nodownload noplaybackrate noremoteplayback">
+        <source src="image/Firefly now generate the image uploaded__Motion-_- Slow flowing liquid metal_- Smooth wave propagati.mp4" type="video/mp4" />
+  </video>
+    </div>
+
+    <!-- Cards -->
+    <div class="featured__cards">
+
+      <!-- Main card: image left, info right -->
+      <div class="project-card" data-project="anvis">
+        <div class="project-card__img-wrap">
+          <img src="image/49603935-7bdb-42ce-9097-2e04eebe5527.png" alt="Anvis Designery" class="project-card__img" />
+        </div>
+        <div class="project-card__info">
+          <h3 class="project-card__title">An online portfolio displaying architecture projects and professional services.</h3>
+          <p class="project-card__meta"><time>May 26, 2025</time>&nbsp;&nbsp;<span>By Gab Flores</span></p>
+          <p class="project-card__desc">Design solutions that elevate brands and create seamless user experiences. I help bring ideas to life with strategy and creativity</p>
+        </div>
+      </div>
+
+      <!-- Bottom row: image top, text below -->
+      <div class="featured__cards-row2">
+
+        <div class="project-card project-card--sm" data-project="orworz">
+          <div class="project-card__img-wrap">
+            <img src="image/c831b18d-fcdd-4b38-806b-c74f2b15d9aa.png" alt="Thorworkz Autoparts" class="project-card__img" />
+          </div>
+          <div class="project-card__info">
+            <h3 class="project-card__title">A website designed for selling products and services over the internet.</h3>
+            <p class="project-card__meta"><time>Jul 6, 2024</time>&nbsp;&nbsp;<span>By Gab Flores</span></p>
+          </div>
+        </div>
+
+        <div class="project-card project-card--sm project-card--dark" data-project="gean">
+          <div class="project-card__img-wrap">
+            <img src="image/70f953aa-eb73-4c3a-beeb-7c69b49874de.png" alt="Gean Library" class="project-card__img" />
+          </div>
+          <div class="project-card__info">
+            <h3 class="project-card__title">A digital platform for organizing and tracking library resources.</h3>
+            <p class="project-card__meta"><time>Nov 27, 2024</time>&nbsp;&nbsp;<span>By Gab Flores</span></p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="featured__view-all">
+      <a href="projects.html" class="view-all-link">VIEW PROJECTS <span class="arrow-box">↗</span></a>
+    </div>
+  </section>
+
+<!-- FOOTER -->
+<footer class="gf-footer">
+  <div class="gf-footer__wrap">
+
+    <a href="index.html" class="gf-footer__flower-link" aria-label="Contact">
+      <img src="image/download.png" alt="" class="gf-footer__flower" />
+    </a>
+
+    <h2 class="gf-footer__title">
+      <span>Reach out,</span> and I’ll take<br />
+      care of the rest
+    </h2>
+
+    <a href="contact.html" class="gf-footer__btn">Contact</a>
+
+    <div class="gf-footer__links">
+      <div class="gf-footer__col">
+        <p>Navigation</p>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+
+      <div class="gf-footer__col">
+        <p>Connect</p>
+        <a href="https://github.com/code-gab18">Github</a>
+        <a href="https://www.linkedin.com/in/eduardo-gabriel-flores-74ba073aa/">LinkedIn</a>
+        <a href="mailto:nuque21811@gmail.com">Email</a>
+      </div>
+
+      <div class="gf-footer__col">
+        <p>Project</p>
+        <a href="https://anvisdesignery.netlify.app/">Anvis Designery</a>
+        <a href="https://thorworkz.netlify.app/">Thorworkz Autoparts</a>
+        <a href="https://geanlibrary.netlify.app/">Gean Library</a>
+      </div>
+    </div>
+
+    <div class="gf-footer__line"></div>
+
+    <p class="gf-footer__copy">
+      ©Eduardo Gabriel N. Flores 2026. All rights reserved.
+    </p>
+
+  </div>
+</footer>
+
+  <!-- PROJECT MODAL -->
+  <div class="modal" id="projectModal">
+    <div class="modal__overlay" id="modalOverlay"></div>
+    <div class="modal__panel" id="modalPanel">
+      <button class="modal__close" id="modalClose">✕</button>
+      <div class="modal__img-wrap">
+        <img src="" alt="" class="modal__img" id="modalImg" />
+      </div>
+      <div class="modal__body">
+        <h2 class="modal__title" id="modalTitle"></h2>
+        <div class="modal__row">
+          <div class="modal__label">Overview</div>
+          <div class="modal__content" id="modalOverview"></div>
+        </div>
+        <div class="modal__row">
+          <div class="modal__label"></div>
+          <div class="modal__content" id="modalCategories"></div>
+        </div>
+        <div class="modal__row">
+          <div class="modal__label"></div>
+          <div class="modal__content" id="modalDate"></div>
+        </div>
+        <div class="modal__row">
+          <div class="modal__label"></div>
+          <div class="modal__content" id="modalClient"></div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
